@@ -28,8 +28,9 @@
 [class^="my-icon-"]:before,
 [class*=" my-icon-"]:before {
   font-family: "mohamadkh75" !important;
+  font-size: 2em;
   font-style: normal !important;
-  font-weight: normal !important;
+  font-weight: bold !important;
   font-variant: normal !important;
   text-transform: none !important;
   speak: none;
