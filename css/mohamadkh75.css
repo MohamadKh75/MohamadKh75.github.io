@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "mohamadkh75";
+  src:url("fonts/mohamadkh75.eot");
+  src:url("fonts/mohamadkh75.eot?#iefix") format("embedded-opentype"),
+    url("fonts/mohamadkh75.woff") format("woff"),
+    url("fonts/mohamadkh75.ttf") format("truetype"),
+    url("fonts/mohamadkh75.svg#mohamadkh75") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "mohamadkh75" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="my-icon-"]:before,
+[class*=" my-icon-"]:before {
+  font-family: "mohamadkh75" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my-icon-code:before {
+  content: "\61";
+}
+.my-icon-smile:before {
+  content: "\62";
+}
+.my-icon-tie:before {
+  content: "\63";
+}
+.my-icon-contact-us:before {
+  content: "\64";
+}
+.my-icon-edu:before {
+  content: "\65";
+}
