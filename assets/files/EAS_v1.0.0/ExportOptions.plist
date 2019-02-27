@@ -9,11 +9,11 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://mohamadkh75.github.io/assets/files/EAS/EAS_v1.0.0.ipa</string>
+		<string>https://mohamadkh75.github.io/assets/files/EAS_v1.0.0/Apps/EAS.ipa</string>
 		<key>displayImageURL</key>
-		<string>https://mohamadkh75.github.io/assets/assets/images/header/avatar.jpeg</string>
+		<string>https://mohamadkh75.github.io/assets/files/icons/icon_57.png</string>
 		<key>fullSizeImageURL</key>
-		<string>https://mohamadkh75.github.io/assets/assets/images/header/avatar.jpeg</string>
+		<string>https://mohamadkh75.github.io/assets/files/icons/icon_512.png</string>
 	</dict>
 	<key>method</key>
 	<string>ad-hoc</string>
@@ -31,6 +31,6 @@
 	<key>teamID</key>
 	<string>A56QU79AZ6</string>
 	<key>thinning</key>
-	<string>&lt;none&gt;</string>
+	<string>&lt;thin-for-all-variants&gt;</string>
 </dict>
 </plist>
